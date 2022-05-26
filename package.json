@@ -1,0 +1,20 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "a little proxy",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./node_modules/gatling/gatling.js ./app.js"
+    },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "gatling": "^2.0.0",
+    "newrelic": "^8.12.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "through": "^2.3.8",
+    "unblocker": "^2.3.0"
+  }
+}
